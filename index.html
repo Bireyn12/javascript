@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Random Generator</title>
+</head>
+<body id="b">
+    <h3>Math Functions -Random</h3>
+
+    <button onclick="randomizer()">Generate a Random Number between 0 to 100</button>
+    <p id="solution">
+
+    </p>
+
+    <script>
+        function randomizer(){
+            document.getElementById("solution").innerHTML= Math.round(Math.random()*100);
+        }
+    </script>
+    
+</body>
+</html>
